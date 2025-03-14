@@ -3,7 +3,7 @@
 ___<font size="6">***MuDG: Taming Multi-modal Diffusion with Gaussian Splatting for Urban Scene Reconstruction***</font>___
 <br>
 <br>
-<a href='https://heiheishuang.xyz/mudg'><img src='https://img.shields.io/badge/arXiv-b31b1b.svg'></a>
+<a href='https://arxiv.org/pdf/2503.10604'><img src='https://img.shields.io/badge/arXiv-b31b1b.svg'></a>
 &nbsp;
 <a href='https://heiheishuang.xyz/mudg'><img src='https://img.shields.io/badge/Project-Page-Green'></a>
 &nbsp;
@@ -15,9 +15,9 @@ _**[Yingshuang Zou](https://heiheishuang.xyz), [Yikang Ding](https://scholar.goo
 <img src='assets/teaser.jpg' style="width: 100%; height: 100%">
  
 ## 🔆 News
-🔥🔥 The training / inference code of Multi-modal Diffusion is available NOW!!!
+🔥🔥 (2025.03) The **training** and **inference** code of Multi-modal Diffusion is available **NOW**!!!
 
-🔥🔥 Paper in on arXiv: [MuDG: Taming Multi-modal Diffusion with Gaussian Splatting for Urban Scene Reconstruction](https://heiheishuang.xyz/mudg)
+🔥🔥 (2025.03) Paper in on arXiv: [MuDG: Taming Multi-modal Diffusion with Gaussian Splatting for Urban Scene Reconstruction](https://arxiv.org/pdf/2503.10604)
 
 ## 📝 TODO List
 - [x] Release training / inference code.
