@@ -3,7 +3,7 @@
 ___<font size="6">***MuDG: Taming Multi-modal Diffusion with Gaussian Splatting for Urban Scene Reconstruction***</font>___
 <br>
 <br>
-<a href='https://arxiv.org/pdf/2503.10604'><img src='https://img.shields.io/badge/arXiv-b31b1b.svg'></a>
+<a href='https://arxiv.org/pdf/2503.10604'><img src='https://img.shields.io/badge/arXiv-2503.10604-b31b1b.svg'></a>
 &nbsp;
 <a href='https://heiheishuang.xyz/mudg'><img src='https://img.shields.io/badge/Project-Page-Green'></a>
 &nbsp;
@@ -20,8 +20,8 @@ _**[Yingshuang Zou](https://heiheishuang.xyz), [Yikang Ding](https://scholar.goo
 🔥🔥 (2025.03) Paper in on arXiv: [MuDG: Taming Multi-modal Diffusion with Gaussian Splatting for Urban Scene Reconstruction](https://arxiv.org/pdf/2503.10604)
 
 ## 📝 TODO List
-- [x] Release training / inference code.
 - [ ] Release data processing code.
+- [x] Release training / inference code.
 
 ## 👀 Abstract
 Recent breakthroughs in radiance fields have significantly advanced 3D scene reconstruction and novel view synthesis (NVS) in autonomous driving. Nevertheless, critical limitations persist: reconstruction-based methods exhibit substantial performance deterioration under significant viewpoint deviations from training trajectories, while generation-based techniques struggle with temporal coherence and precise scene controllability. To overcome these challenges, we present MuDG, an innovative framework that integrates Multi-modal Diffusion model with Gaussian Splatting (GS) for Urban Scene Reconstruction. MuDG leverages aggregated LiDAR point clouds with RGB and geometric priors to condition a multi-modal video diffusion model, synthesizing photorealistic RGB, depth, and semantic outputs for novel viewpoints. This synthesis pipeline enables feed-forward NVS without computationally intensive per-scene optimization, providing comprehensive supervision signals to refine 3DGS representations for rendering robustness enhancement under extreme viewpoint changes. Experiments on the Open Waymo Dataset demonstrate that MuDG outperforms existing methods in both reconstruction and synthesis quality.
@@ -91,7 +91,12 @@ This repository is released under the Apache 2.0 license.
 ## 😉 Citation
 Please consider citing our paper if our code are useful:
 ```bib
-TODO
+@article{zou2025mudg,
+  title={MuDG: Taming Multi-modal Diffusion with Gaussian Splatting for Urban Scene Reconstruction},
+  author={Zou, Yingshuang and Ding, Yikang and Zhang, Chuanrui and Guo, Jiazhe and Li, Bohan and Lyu, Xiaoyang and Tan, Feiyang and Qi, Xiaojuan and Wang, Haoqian},
+  journal={arXiv preprint arXiv:2503.10604},
+  year={2025}
+}
 ```
 
 
