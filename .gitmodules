@@ -1,0 +1,6 @@
+[submodule "data_process/third_party/SegFormer"]
+	path = data_process/third_party/SegFormer
+	url = https://github.com/NVlabs/SegFormer.git
+[submodule "data_process/third_party/DepthLab"]
+	path = data_process/third_party/DepthLab
+	url = https://github.com/ant-research/DepthLab.git

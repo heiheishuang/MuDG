@@ -15,12 +15,15 @@ _**[Yingshuang Zou](https://heiheishuang.xyz), [Yikang Ding](https://scholar.goo
 <img src='assets/teaser.jpg' style="width: 100%; height: 100%">
  
 ## 🔆 News
+🔥🔥 (2025.03) The data processing code is released!
+
 🔥🔥 (2025.03) The **training** and **inference** code of Multi-modal Diffusion is available **NOW**!!!
 
 🔥🔥 (2025.03) Paper in on arXiv: [MuDG: Taming Multi-modal Diffusion with Gaussian Splatting for Urban Scene Reconstruction](https://arxiv.org/pdf/2503.10604)
 
 ## 📝 TODO List
-- [ ] Release data processing code.
+- [x] Release data processing code.
+- [x] Release the pretrained model.
 - [x] Release training / inference code.
 
 ## 👀 Abstract
@@ -46,11 +49,11 @@ pip install -r requirements.txt
 
 ### 💫 Inference for Novel View Viewpoint
 #### 1. Sparse Conditional Generation
-We project the fused  point clouds to novel viewpoints, yielding sparse color and depth maps. 
-```bash
-TODO
-```
-We provided the processed data in this [link](https://huggingface.co/datasets/heiheishuang/MuDG_waymo_example/).
+We project the fused point clouds onto novel viewpoints to generate sparse color and depth maps. 
+
+**Note**: The detailed data processing steps can be found in the [Data Processing](https://github.com/heiheishuang/MuDG) section. 
+
+For your convenience, we have also provided pre-processed data. You can access it via this [link](https://huggingface.co/datasets/heiheishuang/MuDG_waymo_example/).
 
 #### 2. Generate item list
 ```bash
@@ -102,7 +105,8 @@ Please consider citing our paper if our code are useful:
 
 ## 🙏 Acknowledgements
 We would like to thank the contributors of the following repositories for their valuable contributions to the community:
-- [DynamiCrafter](https://github.com/Doubiiu/DynamiCrafter/tree/main)
-- [SegFormer](https://github.com/NVlabs/SegFormer?tab=readme-ov-file)
-- [DepthLab](https://github.com/ant-research/DepthLab/tree/main)
+- [DynamiCrafter](https://github.com/Doubiiu/DynamiCrafter)
+- [SegFormer](https://github.com/NVlabs/SegFormer)
+- [DepthLab](https://github.com/ant-research/DepthLab)
 - [StreetGaussians](https://github.com/zju3dv/street_gaussians)
+- [neuralsim](https://github.com/PJLab-ADG/neuralsim)

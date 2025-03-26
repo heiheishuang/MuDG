@@ -31,7 +31,7 @@ for index in range(len(json_all)):
 
             # normal_dense_path = smart_path_join(clip_path, "normals_dense", camera_list[cam_index])
 
-            depth_dense_path = smart_path_join(clip_path, "remove_hidden_points_depth_processed_depthlab", camera_list[cam_index])
+            depth_dense_path = smart_path_join(clip_path, "six_frames_depth_processed", camera_list[cam_index])
             depth_sparse_path = smart_path_join(clip_path, "depth", camera_list[cam_index])
 
             all_images = smart_listdir(image_path)
