@@ -51,7 +51,7 @@ pip install -r requirements.txt
 #### 1. Sparse Conditional Generation
 We project the fused point clouds onto novel viewpoints to generate sparse color and depth maps. 
 
-**Note**: The detailed data processing steps can be found in the [Data Processing](https://github.com/heiheishuang/MuDG) section. 
+**Note**: The detailed data processing steps can be found in the [Data Processing](https://github.com/heiheishuang/MuDG/tree/master/data_process) section. 
 
 For your convenience, we have also provided pre-processed data. You can access it via this [link](https://huggingface.co/datasets/heiheishuang/MuDG_waymo_example/).
 
