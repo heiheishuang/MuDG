@@ -15,6 +15,8 @@ _**[Yingshuang Zou](https://heiheishuang.xyz), [Yikang Ding](https://scholar.goo
 <img src='assets/teaser.jpg' style="width: 100%; height: 100%">
  
 ## 🔆 News
+🔥🔥 (2025.03) Check out our other latest works on generative world models: [UniScene](https://github.com/Arlo0o/UniScene-Unified-Occupancy-centric-Driving-Scene-Generation/blob/master/README.md), [DiST-4D](https://royalmelon0505.github.io/DiST-4D/), [HERMES](https://lmd0311.github.io/HERMES/).
+
 🔥🔥 (2025.03) The data processing code is released!
 
 🔥🔥 (2025.03) The **training** and **inference** code of Multi-modal Diffusion is available **NOW**!!!
